@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300;400&display=swap");
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
 
 * {
   box-sizing: border-box;
@@ -16,7 +17,12 @@ body {
 }
 
 h1 {
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+  font-family: "Pokemon Solid", sans-serif;
+  color: #ffcc03;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #356abd;
 }
 
 .poke-container {
@@ -46,7 +52,7 @@ h1 {
 }
 
 .pokemon .img-container img {
-  max-width: 90%;
+  max-width: 80%;
   margin-top: 20px;
 }
 
